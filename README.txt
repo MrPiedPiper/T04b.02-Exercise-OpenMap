@@ -1,10 +1,10 @@
-This is the modified exercise T04b.02-Exercise-OpenMap. Modified by Napu Taitano/MrPiedPiper. For what's changed 
+This is the modified exercise T04b.02-Exercise-OpenMap. Modified by Napu Taitano/MrPiedPiper.
 
 
 Here's what's different in a nutshell.
 -----------------------------------------------------------------------
 
-Insetad of this
+Instead of this,
 
         Uri.Builder uriBuilder = new Uri.Builder();
         uriBuilder.scheme("geo")
