@@ -9,7 +9,7 @@ Instead of this,
         Uri.Builder uriBuilder = new Uri.Builder();
         uriBuilder.scheme("geo")
                 .path("0,0")
-                .query("q", address);
+                .query(address);
         Uri addressUri = uriBuilder.build();
 
 -----------------------------------------------------------------------
