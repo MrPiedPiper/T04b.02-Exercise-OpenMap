@@ -8,8 +8,8 @@ Instead of this,
 
         Uri.Builder uriBuilder = new Uri.Builder();
         uriBuilder.scheme("geo")
-                .appendPath("0,0")
-                .appendQueryParameter("q", address);
+                .path("0,0")
+                .query("q", address);
         Uri addressUri = uriBuilder.build();
 
 -----------------------------------------------------------------------
